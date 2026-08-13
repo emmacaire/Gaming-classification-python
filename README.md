@@ -22,7 +22,7 @@ The key takeaways of the project were:
 | Deliverable | Description | Link |
 | :--- | :--- | :---: |
 | 📄&nbsp;**Notebook** | Python code including EDA, data preparation, model training and testing, discussion and final model selection | [Open&nbsp;Notebook&nbsp;↗](./notebooks/Gaming_addiction_notebook.ipynb) |
-| 📄&nbsp;**Data&nbsp;Dictionary** | A synthetic dictionary explaining the source data and further terms used | [View&nbsp;Dictionary&nbsp;↗](./report/) |
+| 📄&nbsp;**Data&nbsp;Dictionary** | A synthetic dictionary explaining the source data and further terms used | [View&nbsp;Dictionary&nbsp;↗](./DATA_DICTIONARY.md) |
 <br>
 
 ## 🛠️ Tech Stack & Methodology
