@@ -1,5 +1,10 @@
 # Predictive Classification Engine: Gaming addiction
-**Source Data:** Kaggle (https://www.kaggle.com/datasets/ajitashwath/gaming-addiction-dataset)
+> **An application of classification methods in public health context with a validated algorithm for predictive analysis and prescriptive practical advices.**
+
+[![Notebook](https://img.shields.io/badge/Python-Notebook-F2C94C?logo=powerbi&logoColor=black)](https://github.com/emmacaire/Gaming-classification-python/blob/main/notebooks/Gaming_addiction_notebook.ipynb)
+[![Kaggle](https://img.shields.io/badge/Data_Source-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/ajitashwath/gaming-addiction-dataset)
+[![Source Data CSV](https://img.shields.io/badge/Data_Source-CSV-green?logo=kaggle)](https://github.com/emmacaire/Gaming-classification-python/blob/main/source/gaming_addiction.csv)
+<br>
 
 ## 📌 Summary
 Starting from a relatively small and computationally inexpensive dataset, I created a classification model that diagnoses patients that are addicted to gaming. 
@@ -14,10 +19,10 @@ The key takeaways of the project were:
 
 
 ## 📊 Key Deliverables & Artifacts
-* 📂 **[Interactive Analysis Notebook](./notebooks/Gaming_addiction_notebook.ipynb):** 
-Python code including EDA, data preparation, model training and testing, discussion and final model selection.
-* 📄 **[Data Dictionary](./report/data_dictionary_gaming.pdf):** 
-A synthetic dictionary explaining the source data and further terms used.
+| Deliverable | Description | Link |
+| :--- | :--- | :---: |
+| 📄&nbsp;**Notebook** | Python code including EDA, data preparation, model training and testing, discussion and final model selection | [Open&nbsp;Notebook&nbsp;↗](./notebooks/Gaming_addiction_notebook.ipynb) |
+| 📄&nbsp;**Data&nbsp;Dictionary** | A synthetic dictionary explaining the source data and further terms used | [View&nbsp;Dictionary&nbsp;↗](./report/) |
 
 
 ## 🛠️ Tech Stack & Methodology
