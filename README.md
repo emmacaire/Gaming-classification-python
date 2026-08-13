@@ -1,7 +1,7 @@
 # Predictive Classification Engine: Gaming addiction
 > **An application of classification methods in public health context with a validated algorithm for predictive analysis and prescriptive practical advices.**
 
-[![Notebook](https://img.shields.io/badge/Python-Notebook-F2C94C?logo=powerbi&logoColor=black)](https://github.com/emmacaire/Gaming-classification-python/blob/main/notebooks/Gaming_addiction_notebook.ipynb)
+[![Notebook](https://img.shields.io/badge/Python-Notebook-F2C94C?logoColor=black)](https://github.com/emmacaire/Gaming-classification-python/blob/main/notebooks/Gaming_addiction_notebook.ipynb)
 [![Kaggle](https://img.shields.io/badge/Data_Source-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/ajitashwath/gaming-addiction-dataset)
 [![Source Data CSV](https://img.shields.io/badge/Data_Source-CSV-green?logo=kaggle)](https://github.com/emmacaire/Gaming-classification-python/blob/main/source/gaming_addiction.csv)
 <br>
