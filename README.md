@@ -18,6 +18,8 @@ Given the purpose of the dataset, emphasis is given into detecting all positive 
 The key takeaways of the project are:
   1. in this specific project, changing the threshold to classify positive values from 0.5 to 0.7 did not create more false negatives and affect recall, on the contrary it improved classification even in the test set.
   2. to avoid class imbalance on the test set, I should have used a stratified shuffle split in the initial train/test holdout, or employ over-sampling techniques like SMOTE.
+
+A detailed analysis is available in the Python notebook.
 <br>
 
 ## 📊 Key Deliverables & Artifacts
