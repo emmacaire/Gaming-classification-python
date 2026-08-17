@@ -1,5 +1,5 @@
 # Predictive Classification Engine: Gaming addiction
-> **An application of classification methods in public health context with a validated algorithm for predictive analysis and prescriptive practical advices.**
+> **An application of classification methods in public health context with a validated algorithm for predictive analysis and prescriptive practical advices, including data pre-processing, LOOCV validation method, robust binary classification techniques and detailed hyperparameter tuning.**
 
 [![Notebook](https://img.shields.io/badge/Python-Notebook-F2C94C?logoColor=black)](https://github.com/emmacaire/Gaming-classification-python/blob/main/notebooks/Gaming_addiction_notebook.ipynb)
 [![Kaggle](https://img.shields.io/badge/Data_Source-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/ajitashwath/gaming-addiction-dataset)
@@ -8,12 +8,12 @@
 
 ## 📌 Summary
 Starting from a relatively small and computationally inexpensive dataset, I created a classification model that diagnoses patients that are addicted to gaming. 
-The dataset contains only 250 rows but offers over 40 different variables, most of which requiring pre-processing in Python. The nature of the dataset also suggested that LOOCV (Leave One Out Cross Validation) would be the best model evaluation technique, leaving only the minimum number of rows out for testing. 
+The dataset contains only 250 rows but offers over 40 different variables, most of which require pre-processing in Python. The nature of the dataset also suggests that LOOCV (Leave One Out Cross Validation) is the best model evaluation technique, leaving only the minimum number of rows out for testing. 
 
-Some features proved to be excellent variables to train the models, however the low number of positive instances in the small test dataset proved to be the main challenge in the end, significantly impacting on the confusion matrix metrics. 
-Given the purpose of the dataset, emphasis was given into detecting all positive instances, maximizing recall and accepting an inferior performance in precision, and Gradient Boosting was the preferred classifier, while the variables that better contributed to an accurate classification were "Screen time total hours", "Sleep hours" and "Missed deadlines".
+Some features prove to be excellent variables to train the models, however the low number of positive instances in the small test dataset proves to be the main challenge in the end, significantly impacting on the confusion matrix metrics. 
+Given the purpose of the dataset, emphasis is given into detecting all positive instances, maximizing recall and accepting an inferior performance in precision, and Gradient Boosting is the preferred classifier, while the variables that better contribute to an accurate classification are "Screen time total hours", "Sleep hours" and "Missed deadlines".
 
-The key takeaways of the project were:
+The key takeaways of the project are:
   1. in this specific project, changing the threshold to classify positive values from 0.5 to 0.7 did not create more false negatives and affect recall, on the contrary it improved classification even in the test set.
   2. to avoid class imbalance on the test set, I should have used a stratified shuffle split in the initial train/test holdout, or employ over-sampling techniques like SMOTE.
 <br>
