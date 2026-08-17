@@ -7,7 +7,9 @@
 <br>
 
 ## 📌 Summary
-Starting from a relatively small and computationally inexpensive dataset, I created a classification model that diagnoses patients that are addicted to gaming. 
+A study is conducted to create a pre-screening test for patients that might be addicted to gaming. The purpose of the test is to prioritize cases that are more likely to be in a pathologic state over the others for faster treatment, and by identifying which patient features are more likely to be correlated with gaming addiction, this will guide the authorities on which information the survey questions should be targeted at.
+
+Starting from a relatively small and computationally inexpensive dataset, I created a classification model that expresses a positive diagnosis (1 = addicted) or a negative one (0 = not addicted). 
 The dataset contains only 250 rows but offers over 40 different variables, most of which require pre-processing in Python. The nature of the dataset also suggests that LOOCV (Leave One Out Cross Validation) is the best model evaluation technique, leaving only the minimum number of rows out for testing. 
 
 Some features prove to be excellent variables to train the models, however the low number of positive instances in the small test dataset proves to be the main challenge in the end, significantly impacting on the confusion matrix metrics. 
