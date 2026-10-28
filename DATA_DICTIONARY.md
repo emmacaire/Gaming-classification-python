@@ -1,4 +1,4 @@
-# 📖 Gaming Addiction Dataset: Data Dictionary
+# Gaming Addiction Dataset: Data Dictionary
 
 ## Overview
 * **Total Instances (Rows):** 250
